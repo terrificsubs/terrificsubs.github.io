@@ -1,0 +1,141 @@
+.l-announcement {
+    padding: 20px;
+    background-color: rgba(220, 220, 220, 0.7);
+    margin-bottom: 20px;
+}
+.schedule-table,
+.schedule-today-table,
+.announcement-table {
+    width: 100%;    
+}
+.schedule-today-table {
+    margin: 0px 0px 20px;
+}
+.announcement-table {
+    margin: 0px 0px 10px;
+}
+.announcement,
+.schedule-today {
+    padding: 15px;
+    background-color: rgba(220, 220, 220, 0.7);
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: normal;
+}
+.schedule-widget-show,
+.schedule-page-show,
+.announcement-post-title {
+    width: 75%;
+    max-width: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.schedule-time,
+.announcement-post-date {
+    text-align: right;
+}
+.comment-body {
+    position: relative;
+}
+.bsearch_results_page,
+.bsearchform input.s,
+.bsearchform input.searchsubmit {
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+#bsearchresults h1.page-title {
+    padding-top: 15px;
+}
+.comment-author,
+.comment-meta {
+    display: inline-block;
+}
+.menu-item-130418 {
+    float: right !important;
+}
+iframe {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+#ad_1 { 
+    margin-bottom: 15px;
+}
+.schedule-page-show a {
+    border-bottom: 1px dotted #000 !important;
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.l-announcement {
+    padding: 20px;
+    background-color: rgba(220, 220, 220, 0.7);
+    margin-bottom: 20px;
+}
+.schedule-table,
+.schedule-today-table,
+.announcement-table {
+    width: 100%;    
+}
+.schedule-today-table {
+    margin: 0px 0px 20px;
+}
+.announcement-table {
+    margin: 0px 0px 10px;
+}
+.announcement,
+.schedule-today {
+    padding: 15px;
+    background-color: rgba(220, 220, 220, 0.7);
+    margin-bottom: 20px;
+    font-size: 14px;
+    letter-spacing: normal;
+}
+.schedule-widget-show,
+.schedule-page-show,
+.announcement-post-title {
+    width: 75%;
+    max-width: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.schedule-time,
+.announcement-post-date {
+    text-align: right;
+}
+.comment-body {
+    position: relative;
+}
+.bsearch_results_page,
+.bsearchform input.s,
+.bsearchform input.searchsubmit {
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+#bsearchresults h1.page-title {
+    padding-top: 15px;
+}
+.comment-author,
+.comment-meta {
+    display: inline-block;
+}
+.menu-item-130418 {
+    float: right !important;
+}
+iframe {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+#ad_1 { 
+    margin-bottom: 15px;
+}
+.schedule-page-show a {
+    border-bottom: 1px dotted #000 !important;
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.schedule-page-item:nth-child(odd) {
+    background: #F5F5F5
+}
