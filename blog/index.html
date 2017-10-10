@@ -1,4 +1,5 @@
 <html><head>
+     <link rel="stylesheet" href="materialize.min.css" type="text/css" media="screen,projection" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -51,7 +52,7 @@ href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
         </li>
         
              <li>
-            <a href="http://35.187.56.251/www/">ddl</a>
+            <a href="#ddl" class="waves-effect" rel="nofollow noreferrer">ddl</a>
         </li>
         
     </ul>
@@ -112,4 +113,59 @@ href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
          <a href="http://terrific.fansub.cc/garbage/FlyingBitch10.txt">Flying Witch - 10</a>
         </li></ul>
 </div>
-</body></html>
+        
+      <div id="ddl" class="modal">
+        <div class="video-container">
+            <iframe src="http://35.187.56.251/www/" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+</body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".button-collapse").sideNav({
+          menuWidth: 240,
+          edge: 'left',
+          closeOnClick: true
+      });
+      $(".button-project").sideNav({
+          menuWidth: 240,
+          edge: 'right',
+          closeOnClick: true
+      });
+      $('.dropdown-button').dropdown({
+          inDuration: 300,
+          outDuration: 225,
+          constrainWidth: false, // Does not change width of dropdown to that of the activator
+          hover: true, // Activate on hover
+          gutter: 0, // Spacing from edge
+          belowOrigin: false, // Displays dropdown below the button
+          alignment: 'left', // Displays dropdown with edge aligned to the left of button
+          stopPropagation: false // Stops event propagation
+      });
+      $('.modal').modal();
+      $('.collapsible').collapsible();
+      $('.tooltipped').tooltip({delay: 50});
+    });
+  </script>
+  <script>
+    if ($('#back-to-top').length) {
+    var scrollTrigger = 100, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+    });
+    $('#back-to-top').on('click', function (e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+  }
+  </script>
+
+    </html>
