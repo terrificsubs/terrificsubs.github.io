@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+html{
+  background: white;
+}
+
+.text{
+  color:#272727;
+  font-family: 'VT323', Courier;
+  font-size:0.8em;
+}
+
+.input{
+  background:white;
+  color:#272727;
+  font-family: 'VT323', Courier;
+  font-size:0.8em;
+  border:none;
+  width:90%;
+}
+
+input:focus{
+  outline: 0;
+}
+
+.a{
+  position:absolute;
+  left:140px;
+}
