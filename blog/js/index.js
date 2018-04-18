@@ -25,12 +25,12 @@ var help =
           'clear <label class="a">Perintah untuk membersihkan layar.</label><br>'+
            'bantuan <label class="a">Perintah untuk menampilkan menu bantuan.</label>';
 var rilisanz =
-			'Oregairu Zoku <b>[zoku]</b><br>'+
-          'Fate Apocrypha <b>[apokrif]</b><br>'+
-          'Violet Evergarden <b>[violet]</b><br>'+
-          'Fate Grand Order <b>[fgo]</b><br>'+
-          'Zutto Mae Kara Suki Deshita <b>[zmksd]</b><br>'+
-          'Mahou Tsukai no Yome <b>[mtny]</b><br>';
+		  'zoku <label class="a">Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku</label><br>'+
+          'apokrif <label class="a">Fate/Apocrypha</label><br>'+
+          'violet <label class="a">Violet Evergarden</label><br>'+
+          'fgo <label class="a">Fate/Grand Order: First Order</label><br>'+
+          'zmksd <label class="a">Zutto Mae kara Suki deshita.: Kokuhaku Jikkou Iinkai</label><br>'+
+          'mtny <label class="a">Mahoutsukai no Yome</label>';
 
 var dir= ">//";
 
