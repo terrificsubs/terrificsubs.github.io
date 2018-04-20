@@ -21,7 +21,7 @@ var violet_=
 /////////////////////////////////////////////////////////////////
 
 var help = 
-			'rilisan <label class="a">Perintah untuk menampilkan daftar rilisan berserta <b>syntax command-nya</b>.</label><br>'+
+			'rilisan <label class="a">Perintah untuk menampilkan daftar rilisan beserta <b>syntax command-nya</b>.</label><br>'+
           'clear <label class="a">Perintah untuk membersihkan layar.</label><br>'+
            'bantuan <label class="a">Perintah untuk menampilkan menu bantuan.</label>';
 var rilisanz =
